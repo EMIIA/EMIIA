@@ -1,2 +1,2 @@
 # EMIIA
-EMIIA (Amy)
+ЭМИИА
