@@ -1,4 +1,3 @@
-# EMIIA ЭМИИА
 <!DOCTYPE html>
 <html >
   <head>
