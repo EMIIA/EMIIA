@@ -52,6 +52,8 @@
 
 <br/>
 <br/>
+<br/>
+
 
 <div dir="ltr" style="text-align: center;" trbidi="on">
 <a class="more" data-analytics-region="learn more" href="https://www.emiia.ru/p/b2b.html" style="color: #0070c9; font-size: 14px; letter-spacing: -0.374px; text-align: center;"><span style="font-family: Arial, Helvetica, sans-serif;">→ ПОДРОБНЕЕ</span></a></div>
@@ -67,6 +69,7 @@
 <hr style="border-bottom-color: rgb(229, 229, 229); border-bottom-style: solid; border-left: 0px; border-right: 0px; border-top: 0px; clear: both; font-family: &quot;times new roman&quot;; height: 0px; margin: 0px 0px 20px; padding: 0px;" />
 <div style="font-family: &quot;times new roman&quot;; margin: 0px; padding: 0px;">
 
+<br/>
 <br/>
 <br/>
 
@@ -96,18 +99,21 @@
 <div dir="ltr" style="text-align: center;" trbidi="on">
 <span style="font-family: Arial; font-size: small;">
 Распознавание образов, вычисление координат и скорости динамических объектов посредством радиоволн, в том числе и за радиопрозрачными преградами. <a href="https://www.emiia.ru/p/confidentiality.html"><span style="color: black;"></span></a></span></div>
+
+<br/>
 <br/>
 <br/>
 
-<div dir="ltr" style="text-align: left;" trbidi="on">
-<div class="separator" style="clear: both; text-align: center;">
-<a href="https://github.com/EMIIA"><img alt="EMIIA GitHub" border="0" data-original-height="140" data-original-width="280" height="67" src="https://emiia.github.io/emiia13.svg" title="EMIIA" width="70" /></a></div>
+<div dir="ltr" style="text-align: center;" trbidi="on">
+<a href="https://github.com/EMIIA"><img alt="EMIIA GitHub" border="0" data-original-height="140" data-original-width="280" height="67" src="https://emiia.github.io/emiia13.svg" title="EMIIA repository GitHub Cognitive radio optics" width="70" /></a></div>
             
 
+<br/>
 <br/>
 <br/>
 
 <div dir="ltr" style="text-align: left;" trbidi="on">
 <span style="font-family: Arial; font-size: x-small;">© 2019 ЭМИИА<a href="https://www.emiia.ru/p/confidentiality.html"><span style="color: black;"></span></a></span></div>
 
+<br/>
 
