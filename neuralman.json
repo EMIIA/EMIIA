@@ -1,0 +1,97 @@
+{
+  "files": [
+    {
+      "links": {
+        "self": "https://zenodo.org/api/files/4d0ff253-b558-40cd-b5e1-9fa5f5376f82/neuralman.html"
+      }, 
+      "checksum": "md5:85b7afeaf74077731da8f8c777217a27", 
+      "bucket": "4d0ff253-b558-40cd-b5e1-9fa5f5376f82", 
+      "key": "neuralman.html", 
+      "type": "html", 
+      "size": 3666
+    }
+  ], 
+  "owners": [
+    144801
+  ], 
+  "doi": "10.5281/zenodo.4079182", 
+  "stats": {
+    "version_unique_downloads": 0.0, 
+    "unique_views": 0.0, 
+    "views": 0.0, 
+    "version_views": 0.0, 
+    "unique_downloads": 0.0, 
+    "version_unique_views": 0.0, 
+    "volume": 0.0, 
+    "version_downloads": 0.0, 
+    "downloads": 0.0, 
+    "version_volume": 0.0
+  }, 
+  "links": {
+    "doi": "https://doi.org/10.5281/zenodo.4079182", 
+    "conceptdoi": "https://doi.org/10.5281/zenodo.4079181", 
+    "bucket": "https://zenodo.org/api/files/4d0ff253-b558-40cd-b5e1-9fa5f5376f82", 
+    "conceptbadge": "https://zenodo.org/badge/doi/10.5281/zenodo.4079181.svg", 
+    "html": "https://zenodo.org/record/4079182", 
+    "latest_html": "https://zenodo.org/record/4079182", 
+    "badge": "https://zenodo.org/badge/doi/10.5281/zenodo.4079182.svg", 
+    "latest": "https://zenodo.org/api/records/4079182"
+  }, 
+  "conceptdoi": "10.5281/zenodo.4079181", 
+  "created": "2020-10-11T14:45:56.070292+00:00", 
+  "updated": "2020-10-11T14:45:57.062004+00:00", 
+  "conceptrecid": "4079181", 
+  "revision": 1, 
+  "id": 4079182, 
+  "metadata": {
+    "access_right_category": "success", 
+    "doi": "10.5281/zenodo.4079182", 
+    "description": "<p>&lt;!DOCTYPE html&gt;<br>\n&lt;!--<br>\nNOTES:<br>\n1. All tokens are represented by &#39;$&#39; sign in the template.<br>\n2. You can write your code only wherever mentioned.<br>\n3. All occurrences of existing tokens will be replaced by their appropriate values.<br>\n4. Blank lines will be removed automatically.<br>\n5. Remove unnecessary comments before creating your template.<br>\n--&gt;<br>\n&lt;html&gt;<br>\n&lt;head&gt;<br>\n&lt;meta charset=&quot;UTF-8&quot;&gt;<br>\n&lt;meta name=&quot;authoring-tool&quot; content=&quot;Adobe_Animate_CC&quot;&gt;<br>\n&lt;title&gt;man1&lt;/title&gt;<br>\n&lt;!-- write your code here --&gt;<br>\n&lt;script src=&quot;https://code.createjs.com/createjs-2015.11.26.min.js&quot;&gt;&lt;/script&gt;<br>\n&lt;script src=&quot;https://emiia.github.io/svg/man3.js&quot;&gt;&lt;/script&gt;<br>\n&lt;script&gt;<br>\nvar canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;<br>\nfunction init() {<br>\ncanvas = document.getElementById(&quot;canvas&quot;);<br>\nanim_container = document.getElementById(&quot;animation_container&quot;);<br>\ndom_overlay_container = document.getElementById(&quot;dom_overlay_container&quot;);<br>\nvar comp=AdobeAn.getComposition(&quot;CE752CCBB48F054A8D32F2E6A8EB7A08&quot;);<br>\nvar lib=comp.getLibrary();<br>\nhandleComplete({},comp);<br>\n}<br>\nfunction handleComplete(evt,comp) {<br>\n//This function is always called, irrespective of the content. You can use the variable &quot;stage&quot; after it is created in token create_stage.<br>\nvar lib=comp.getLibrary();<br>\nvar ss=comp.getSpriteSheet();<br>\nexportRoot = new lib.man1();<br>\nstage = new lib.Stage(canvas);<br>\n//Registers the &quot;tick&quot; event listener.<br>\nfnStartAnimation = function() {<br>\nstage.addChild(exportRoot);<br>\ncreatejs.Ticker.setFPS(lib.properties.fps);<br>\ncreatejs.Ticker.addEventListener(&quot;tick&quot;, stage);<br>\n}<br>\n//Code to support hidpi screens and responsive scaling.<br>\nfunction makeResponsive(isResp, respDim, isScale, scaleType) {<br>\nvar lastW, lastH, lastS=1;<br>\nwindow.addEventListener(&#39;resize&#39;, resizeCanvas);<br>\nresizeCanvas();<br>\nfunction resizeCanvas() {<br>\nvar w = lib.properties.width, h = lib.properties.height;<br>\nvar iw = window.innerWidth, ih=window.innerHeight;<br>\nvar pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=0.5;<br>\nif(isResp) {<br>\nif((respDim==&#39;width&#39;&amp;&amp;lastW==iw) || (respDim==&#39;height&#39;&amp;&amp;lastH==ih)) {<br>\nsRatio = lastS;<br>\n}<br>\nelse if(!isScale) {<br>\nif(iw&lt;w || ih&lt;h)<br>\nsRatio = Math.min(xRatio, yRatio);<br>\n}<br>\nelse if(scaleType==1) {<br>\nsRatio = Math.min(xRatio, yRatio);<br>\n}<br>\nelse if(scaleType==2) {<br>\nsRatio = Math.max(xRatio, yRatio);<br>\n}<br>\n}<br>\ncanvas.width = w*pRatio*sRatio;<br>\ncanvas.height = h*pRatio*sRatio;<br>\ncanvas.style.width = dom_overlay_container.style.width = anim_container.style.width = w*sRatio+&#39;px&#39;;<br>\ncanvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+&#39;px&#39;;<br>\nstage.scaleX = pRatio*sRatio;<br>\nstage.scaleY = pRatio*sRatio;<br>\nlastW = iw; lastH = ih; lastS = sRatio;<br>\nstage.tickOnUpdate = false;<br>\nstage.update();<br>\nstage.tickOnUpdate = true;<br>\n}<br>\n}<br>\nmakeResponsive(false,&#39;both&#39;,false,1);<br>\nAdobeAn.compositionLoaded(lib.properties.id);<br>\nfnStartAnimation();<br>\n}<br>\n&lt;/script&gt;<br>\n&lt;!-- write your code here --&gt;<br>\n&lt;/head&gt;<br>\n&lt;body onload=&quot;init();&quot; style=&quot;margin:0px;&quot;&gt;<br>\n&lt;div id=&quot;animation_container&quot; style=&quot;background-color:rgba(); width: px; position: relative; margin: auto; align: center; height:0px&quot;&gt;<br>\n&lt;canvas id=&quot;canvas&quot; width=&quot;&quot; height=&quot;&quot; style=&quot;position: absolute; display: block; background-color:rgba();&quot;&gt;&lt;/canvas&gt;<br>\n&lt;div id=&quot;dom_overlay_container&quot; style=&quot;pointer-events:none; overflow:hidden; width:0px; height:0px; position: absolute; left: 0px; top: 0px; display: block;&quot;&gt;<br>\n&lt;/div&gt;<br>\n&lt;/div&gt;<br>\n&lt;/body&gt;<br>\n&lt;/html&gt;</p>", 
+    "language": "eng", 
+    "title": "EMIIA.AI (NEURALMAN)", 
+    "license": {
+      "id": "CC-BY-4.0"
+    }, 
+    "notes": "\u042d\u041c\u0418\u0418\u0410 AI EMIIA.AI", 
+    "relations": {
+      "version": [
+        {
+          "count": 1, 
+          "index": 0, 
+          "parent": {
+            "pid_type": "recid", 
+            "pid_value": "4079181"
+          }, 
+          "is_last": true, 
+          "last_child": {
+            "pid_type": "recid", 
+            "pid_value": "4079182"
+          }
+        }
+      ]
+    }, 
+    "version": "1", 
+    "keywords": [
+      "\u042d\u041c\u0418\u0418\u0410, EMIIA"
+    ], 
+    "publication_date": "2020-10-11", 
+    "creators": [
+      {
+        "affiliation": "EMIIA.RU", 
+        "name": "EMIIA.AI"
+      }
+    ], 
+    "access_right": "open", 
+    "resource_type": {
+      "type": "dataset", 
+      "title": "Dataset"
+    }, 
+    "related_identifiers": [
+      {
+        "scheme": "doi", 
+        "identifier": "10.5281/zenodo.4079181", 
+        "relation": "isVersionOf"
+      }
+    ]
+  }
+}
